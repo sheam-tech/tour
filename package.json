@@ -1,21 +1,41 @@
 {
   "name": "tour-management-system",
   "version": "1.0.0",
-  "description": "",
+  "description": "An assignment for ACC with several endpoints.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+  "type": "commonjs",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasibulislam999/tour-management-system.git"
+  },
+  "keywords": [
+    "node-js",
+    "express-js",
+    "mongodb",
+    "mongoose",
+    "async",
+    "await",
+    "promise",
+    "rest-api"
+  ],
+  "author": "Hasibul Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hasibulislam999/tour-management-system/issues"
+  },
+  "homepage": "https://github.com/hasibulislam999/tour-management-system#readme",
   "dependencies": {
-    "colors": "^1.4.0",
     "cors": "^2.8.5",
     "dotenv": "^16.0.2",
     "express": "^4.18.1",
+    "mongodb": "^4.10.0",
     "mongoose": "^6.6.1"
   }
 }
