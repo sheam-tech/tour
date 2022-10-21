@@ -1,0 +1,9 @@
+{
+    "name": "Sylhet",
+    "description": "Most wonderful place in Bangladesh",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/5d/b2/55/jaflong.jpg?w=700&h=500&s=1",
+    "cost": 5000,
+    "visitor": 5,
+    "viewCount": 10,
+    "status": "book-now"
+}
